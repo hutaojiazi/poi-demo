@@ -28,6 +28,7 @@ The service will be deployed on port 8080 as specified in application.yml:
     $http://localhost:8080
 
 ## Improvement to implement
+* Create API spec (swagger/open api)
 * Create SQL script and persist the data into a database. In-memory cache is being used due to time constraint.
 * Add cache support for trail search assuming that the trail data will rarely change.
 * Add docker file / jenkins file for CI/CD
