@@ -16,6 +16,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import java.util.UUID;
 import java.util.stream.Stream;
 
 @Service
@@ -47,7 +48,8 @@ public class TrailServiceImpl implements TrailService
 	@Transactional
 	public String create(final Trail trail)
 	{
-		return "";
+		// TODO: add implementation
+		return UUID.randomUUID().toString();
 	}
 
 	@Override
